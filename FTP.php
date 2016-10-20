@@ -70,4 +70,22 @@ class FTP
 
 
 
+    /**
+     * Call a ftp_* method without need to give connection stream
+     * Example: $ftp->login($username, $password)
+     * There is no need to write ftp_ nor give connexion stream
+     * @param  callable $func The FTP function to call
+     * @param  array $params The params to give to $func
+     * @return mixed The value returned by $func
+     */
+    public function __call($func,$params){
+        if(function_exists("ftp_" . $func)){
+            array_unshift($params,$this->connexionId);
+            return call_user_func_array("ftp_" . $func,$params);
+        }else{
+            throw new \Exception("ftp_$func is not a valid FTP function");
+        }
+    }
+
+
 }
