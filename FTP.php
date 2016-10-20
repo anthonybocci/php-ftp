@@ -1,6 +1,6 @@
 <?php
 
-namespace AnthonyBocci;
+namespace AnthonyBocci\Transport;
 
 /**
  * @class FTP
