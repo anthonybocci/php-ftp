@@ -5,7 +5,6 @@
     "keywords": ["transport","ftp"],
     "homepage": "https://github.com/anthonybocci/php-ftp",
     "license": "MIT",
-    "stability": "stable",
     "authors": [
         {
             "name": "Anthony BOCCI",
