@@ -1,7 +1,7 @@
 {
     "name": "anthonybocci/transport",
     "type": "library",
-    "description": "classes to manage transport like FTP using object oriented.",
+    "description": "Classes to manage transport like FTP using object oriented.",
     "keywords": ["transport","ftp"],
     "homepage": "https://github.com/anthonybocci/php-transport",
     "license": "GPL V3",
