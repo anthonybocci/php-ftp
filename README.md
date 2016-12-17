@@ -1,6 +1,11 @@
-# Php-ftp
+# Php-transport
 
-PHP class to use FTP.
+PHP class to use transport.
+
+Class(es) implemented:
+
+## FTP
+
 This class has simple methods to connect, set host, and can handle every ftp_* PHP method using __call. So to use *ftp_login*, just call login
  method without give $ftp_stream parameter.
 
