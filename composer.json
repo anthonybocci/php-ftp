@@ -1,0 +1,24 @@
+{
+    "name": "anthonybocci/transport-ftp",
+    "type": "library",
+    "description": "FTP class to manage any FTP method using object oriented.",
+    "keywords": ["transport","ftp"],
+    "homepage": "https://github.com/anthonybocci/php-ftp",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anthony BOCCI",
+            "email": "boccianthony@yahoo.fr",
+            "homepage": "http://www.anthony-bocci.fr",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AnthonyBocci\\": "src"
+        }
+    }
+}
